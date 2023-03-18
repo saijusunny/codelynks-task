@@ -216,6 +216,8 @@
                       console.log(response)
                     
               }});
+
+          
               
     
           
@@ -234,7 +236,7 @@
   <div class="thank-you-pop">
     <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
     <h1>Liked</h1>
-
+    <a href="{% url 'feeds_user'%}"><button class="btn btn-danger" style="width: 100px;">Ok</button></a>
     
    </div>
                
@@ -248,7 +250,7 @@
   <div class="modal-dialog">
       <div class="modal-content">
           <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+              <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button></a>
            </div>
 
           <div class="modal-body">
@@ -256,6 +258,7 @@
   <div class="thank-you-pop">
     <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
     <h1>Disliked</h1>
+    <a href="{% url 'feeds_user'%}"><button class="btn btn-danger" style="width: 100px;">Ok</button></a>
 
     
    </div>
